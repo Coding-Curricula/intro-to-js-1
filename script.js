@@ -38,3 +38,40 @@ const object = {
     isMarried: true
 }
 console.log(object, typeof object);
+
+let firstNum = 26;
+let secondNum = 4;
+
+console.log("addition", firstNum + secondNum);
+console.log("subtraction", firstNum - secondNum);
+console.log("multiplication", firstNum * secondNum);
+console.log("division", firstNum / secondNum);
+console.log("modulus", firstNum % secondNum);
+
+let grade = 95;
+grade = 100;
+console.log("grade", grade);
+
+let newNumber = 5;
+newNumber += 6;
+console.log("newNumber", newNumber);
+
+console.log(1 == 1);
+console.log(1 === 1);
+console.log(1 === "1");
+console.log(2 > 3);
+console.log(3 > 2);
+console.log(5 != 10);
+console.log(5 !== 5);
+console.log(5 !== "10");
+
+let studentFirstName = "Brandon";
+let studentLastName = "N";
+let grade1 = 53;
+let grade2 = 96;
+let grade3 = 65;
+let grade4 = 74;
+let passingGrade = 80;
+//1.Create a variable called average that computes for the average from grade1 to grade4
+let average = (grade1 + grade2 + grade3 + grade4) / 4;
+console.log("average", average);
